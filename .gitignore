@@ -1,0 +1,9 @@
+node_modules/
+/generated
+/build
+.env
+
+docker/data
+artifacts
+cache
+typechain
