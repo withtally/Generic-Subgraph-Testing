@@ -422,12 +422,12 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
-"@graphprotocol/graph-ts@^0.20.0":
-  "integrity" "sha512-+R0Tu/MD4Fiq0Fo+v1l+xznz+ZrciQKWlzMtXjDrhM70vlMNVL9wDmf90MVFYpslgqIfw024hT6XwlmyNyOWbQ=="
-  "resolved" "https://registry.npmjs.org/@graphprotocol/graph-ts/-/graph-ts-0.20.0.tgz"
-  "version" "0.20.0"
+"@graphprotocol/graph-ts@^0.20.1":
+  "integrity" "sha512-JATb0tERXt+JZUYuW9rwfnLzIM4EOBHf/EEZir5JMiIVMP55CoOyQGAwH2dvKSm5O8WQ1BfdbnOvk7YNVMFHsg=="
+  "resolved" "https://registry.npmjs.org/@graphprotocol/graph-ts/-/graph-ts-0.20.1.tgz"
+  "version" "0.20.1"
   dependencies:
-    "assemblyscript" "git+https://github.com/AssemblyScript/assemblyscript.git#36040d5b5312f19a025782b5e36663823494c2f3"
+    "assemblyscript" "git+https://github.com/AssemblyScript/assemblyscript.git#v0.6"
 
 "@nodelib/fs.scandir@2.1.4":
   "integrity" "sha512-33g3pMJk3bg5nXbL/+CY6I2eJDzZAni49PfJnL5fghPTggPvBd/pFNSgJsdAgWptuFu7qq/ERvOYFlhvsLTCKA=="
@@ -1016,9 +1016,8 @@
   dependencies:
     "safer-buffer" "~2.1.0"
 
-"assemblyscript@git+https://github.com/AssemblyScript/assemblyscript.git#36040d5b5312f19a025782b5e36663823494c2f3":
-  "integrity" "sha512-+bxj80L18f0GP6bb5GKUTMpkQRl2bRqHcl1iPi86arWYaLxO2oYAvWYj5SWLXd7IXmtlRij6hZb7z/hbzEaZYQ=="
-  "resolved" "git+ssh://git@github.com/AssemblyScript/assemblyscript.git#36040d5b5312f19a025782b5e36663823494c2f3"
+"assemblyscript@git+https://github.com/AssemblyScript/assemblyscript.git#v0.6":
+  "resolved" "git+ssh://git@github.com/AssemblyScript/assemblyscript.git#3ed76a97f05335504166fce1653da75f4face28f"
   "version" "0.6.0"
   dependencies:
     "@protobufjs/utf8" "^1.1.0"
@@ -2798,7 +2797,7 @@
     "ws" "^3.0.0"
     "xhr-request-promise" "^0.1.2"
 
-"eth-lib@^0.2.8", "eth-lib@0.2.8":
+"eth-lib@^0.2.8":
   "integrity" "sha512-ArJ7x1WcWOlSpzdoTBX8vkwlkSQ85CjjifSZtV4co64vWxSV8geWfPI9x4SVYu3DSxnX4yWFVTtGL+j9DUFLNw=="
   "resolved" "https://registry.npmjs.org/eth-lib/-/eth-lib-0.2.8.tgz"
   "version" "0.2.8"
@@ -2811,6 +2810,15 @@
   "integrity" "sha1-L5Pxex4jrsN1nNSj/iDBKGo/wco="
   "resolved" "https://registry.npmjs.org/eth-lib/-/eth-lib-0.2.7.tgz"
   "version" "0.2.7"
+  dependencies:
+    "bn.js" "^4.11.6"
+    "elliptic" "^6.4.0"
+    "xhr-request-promise" "^0.1.2"
+
+"eth-lib@0.2.8":
+  "integrity" "sha512-ArJ7x1WcWOlSpzdoTBX8vkwlkSQ85CjjifSZtV4co64vWxSV8geWfPI9x4SVYu3DSxnX4yWFVTtGL+j9DUFLNw=="
+  "resolved" "https://registry.npmjs.org/eth-lib/-/eth-lib-0.2.8.tgz"
+  "version" "0.2.8"
   dependencies:
     "bn.js" "^4.11.6"
     "elliptic" "^6.4.0"
@@ -3178,7 +3186,7 @@
     "uuid" "2.0.1"
     "xmlhttprequest" "1.8.0"
 
-"ethers@^5.0.0", "ethers@^5.0.1", "ethers@^5.0.2", "ethers@^5.0.31":
+"ethers@^5.0.0", "ethers@^5.0.1", "ethers@^5.0.31":
   "integrity" "sha512-zpq0YbNFLFn+t+ibS8UkVWFeK5w6rVMSvbSHrHAQslfazovLnQ/mc2gdN5+6P45/k8fPgHrfHrYvJ4XvyK/S1A=="
   "resolved" "https://registry.npmjs.org/ethers/-/ethers-5.0.31.tgz"
   "version" "5.0.31"
@@ -4572,7 +4580,12 @@
   "resolved" "https://registry.npmjs.org/js-sha3/-/js-sha3-0.5.7.tgz"
   "version" "0.5.7"
 
-"js-sha3@^0.8.0", "js-sha3@0.8.0":
+"js-sha3@^0.8.0":
+  "integrity" "sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q=="
+  "resolved" "https://registry.npmjs.org/js-sha3/-/js-sha3-0.8.0.tgz"
+  "version" "0.8.0"
+
+"js-sha3@0.8.0":
   "integrity" "sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q=="
   "resolved" "https://registry.npmjs.org/js-sha3/-/js-sha3-0.8.0.tgz"
   "version" "0.8.0"
@@ -6788,7 +6801,12 @@
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
 
-"source-map@^0.6.0", "source-map@^0.6.1":
+"source-map@^0.6.0":
+  "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
+  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+  "version" "0.6.1"
+
+"source-map@^0.6.1":
   "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
   "version" "0.6.1"
@@ -8129,12 +8147,7 @@
   dependencies:
     "async-limiter" "~1.0.0"
 
-"ws@^7.2.1":
-  "integrity" "sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA=="
-  "resolved" "https://registry.npmjs.org/ws/-/ws-7.4.3.tgz"
-  "version" "7.4.3"
-
-"ws@7.2.3":
+"ws@^7.2.1", "ws@7.2.3":
   "integrity" "sha512-HTDl9G9hbkNDk98naoR/cHDws7+EyYMOdL1BmjsZXRUjf7d+MficC4B7HLUPlSiho0vg+CWKrGIt/VJBd1xunQ=="
   "resolved" "https://registry.npmjs.org/ws/-/ws-7.2.3.tgz"
   "version" "7.2.3"
